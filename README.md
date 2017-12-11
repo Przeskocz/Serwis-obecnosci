@@ -34,7 +34,7 @@ Widok wszystkich studentów
 
 Widok konkretnego studenta
 ```
-studenci/{id}
+/studenci/{id}
 ```
 
 Tworzenie studenta
