@@ -49,7 +49,7 @@ studenci/update?id=value&name=value&surname=value&age=value
 
 Usunięcie stuenta
 ```
-+/delete/{id}
+studenci/delete/{id}
 ```
 
 ### Przedmioty
@@ -73,7 +73,7 @@ Usunięcie przedmiotu o podanym id
 przedmioty/delete/{id}
 ```
 
-Aktualizacja przedmiotu o podanym id i nowych wartosciach
+Aktualizacja przedmiotu o podanym id i nowych wartościach
 ```
 przedmioty/update/{id}?name=value&length=value
 ```
