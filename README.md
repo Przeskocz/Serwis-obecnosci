@@ -18,12 +18,12 @@ JSON wszystkich obecności
 
 JSON konkretnej obecności
 ```
-obecnosci/{id}
+/obecnosci/{id}
 ```
 
 JSON obecności według kryteriów 
 ```
-obecnosci/create/{ByCriteria}
+/obecnosci/create/{ByCriteria}
 ```
 
 ### Studenci
@@ -39,17 +39,17 @@ studenci/{id}
 
 Tworzenie studenta
 ```
-studenci/create?name=value&surname=value&age=value
+/studenci/create?name=value&surname=value&age=value
 ```
 
 Aktualizacja studenta
 ```
-studenci/update?id=value&name=value&surname=value&age=value
+/studenci/update?id=value&name=value&surname=value&age=value
 ```
 
 Usunięcie stuenta
 ```
-studenci/delete/{id}
+/studenci/delete/{id}
 ```
 
 ### Przedmioty
@@ -60,20 +60,20 @@ JSON wszystkich przedmiotów
 
 JSON konkretnego przedmiotu
 ```
-przedmioty/{id}
+/przedmioty/{id}
 ```
 
 Tworzenie nowego przedmiotu
 ```
-przedmioty/create?name=value&length=value
+/przedmioty/create?name=value&length=value
 ```
 
 Usunięcie przedmiotu o podanym id
 ```
-przedmioty/delete/{id}
+/przedmioty/delete/{id}
 ```
 
 Aktualizacja przedmiotu o podanym id i nowych wartościach
 ```
-przedmioty/update/{id}?name=value&length=value
+/przedmioty/update/{id}?name=value&length=value
 ```
