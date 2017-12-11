@@ -10,13 +10,13 @@ JSON wszystkich studentów i przedmiotów
 ```
 /all
 ```
-
+### Obecności
 JSON wszystkich obecności
 ```
 /obecnosci
 ```
 
-JSON konkretnej obecnosci
+JSON konkretnej obecności
 ```
 obecnosci/{id}
 ```
@@ -26,6 +26,7 @@ JSON obecności według kryteriów
 obecnosci/create/{ByCriteria}
 ```
 
+### Studenci
 Widok wszystkich studentów
 ```
 /studenci
@@ -51,6 +52,7 @@ Usunięcie stuenta
 +/delete/{id}
 ```
 
+### Przedmioty
 JSON wszystkich przedmiotów
 ```
 /przedmioty
