@@ -6,78 +6,72 @@ Aplikacja Spring Boot
 
 ## URL wykorzystywane w aplikacji
 
-/all
-```
 JSON wszystkich studentów i przedmiotów
 ```
-
-
-
-/obecnosci
+/all
 ```
+
 JSON wszystkich obecności
 ```
-
-+/{id}
+/obecnosci
 ```
+
 JSON konkretnej obecnosci
 ```
-
-+/create/{ByCriteria}
+obecnosci/{id}
 ```
+
 JSON obecności według kryteriów 
 ```
+obecnosci/create/{ByCriteria}
+```
 
-
-
+Widok wszystkich studentów
+```
 /studenci
 ```
-widok wszystkich studentów
+
+Widok konkretnego studenta
+```
+studenci/{id}
 ```
 
-+/{id}
+Tworzenie studenta
 ```
-widok konkretnego studenta
-```
-
-+/create?name=value&surname=value&age=value
-```
-tworzenie studenta
+studenci/create?name=value&surname=value&age=value
 ```
 
-+/update?id=value&name=value&surname=value&age=value
+Aktualizacja studenta
 ```
-aktualizacja studenta
+studenci/update?id=value&name=value&surname=value&age=value
 ```
 
+Usunięcie stuenta
+```
 +/delete/{id}
 ```
-usuniecie stuenta
-```
 
-
-
-/przedmioty
-```
 JSON wszystkich przedmiotów
 ```
-
-+/{id}
+/przedmioty
 ```
+
 JSON konkretnego przedmiotu
 ```
-
-+/create?name=value&length=value
-```
-tworzenie nowego przedmiotu
+przedmioty/{id}
 ```
 
-+/delete/{id}
+Tworzenie nowego przedmiotu
 ```
-usunięcie przedmiotu o podanym id
+przedmioty/create?name=value&length=value
 ```
 
-+/update/{id}?name=value&length=value
+Usunięcie przedmiotu o podanym id
 ```
-aktualizacja przedmiotu o podanym id i nowych wartosciach
+przedmioty/delete/{id}
+```
+
+Aktualizacja przedmiotu o podanym id i nowych wartosciach
+```
+przedmioty/update/{id}?name=value&length=value
 ```
